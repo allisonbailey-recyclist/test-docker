@@ -1,0 +1,18 @@
+{
+    "env": {
+        //What version of node do you want swc to target as far as APIs and language features.
+        "target": {
+            "node": 18
+        }
+    },
+    "jsc": {
+        "parser": {
+            "syntax": "typescript"
+        }
+    },
+    "module": {
+        "type": "commonjs"
+    },
+    //when compiling from TS to JS, it's going to setup embedded source maps which will help in debugging especially when running in Docker. 
+    "sourceMaps": "inline"
+}

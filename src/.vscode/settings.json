@@ -1,0 +1,4 @@
+//Manually ensure that typescript version is running based off the package I downloaded, overriding VS Code version of TS
+{
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
